@@ -41,8 +41,6 @@ class Player:
 
         self.hand = []
         self.hand_value = 0
-        self.chips = chips
-        self.bet = 0
         self.ace_count = 0
 
 class House:
@@ -52,6 +50,3 @@ class House:
         self.hand = []
         self.hand_value = 0
         self.ace_count = 0
-
-    def track_aces(self):
-        pass
